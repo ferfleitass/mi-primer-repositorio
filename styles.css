@@ -1,0 +1,70 @@
+/* Estilo general */
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #f0f8ff; /* Color de fondo suave */
+    color: #333; /* Color del texto */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    border: 5px solid #04c2f1; /* Color dorado */
+    border-radius: 10px;
+    background: linear-gradient(135deg, #04c2f1); /* Gradiente dorado */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Títulos */
+h1, h2, h3 {
+    font-family: 'Pirata', cursive; /* Fuente estilo pirata */
+    color: black; 
+    text-align: center;
+}
+
+/* Listas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+    padding: 5px;
+    background-color: #e6f7ff; /* Fondo azul claro */
+    border-radius: 5px;
+}
+
+
+/* Estilo para imágenes */
+.img-container {
+    text-align: center;
+    margin: 20px 0;
+
+}
+
+.img-container img {
+    border-radius: 10px;
+    border: 5px solid black; /* Color anaranjado */
+    max-height: 220px;
+
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+section {
+    margin: 20px 0;
+    text-align: center;
+    
+}
+
